@@ -38,6 +38,26 @@ body {
 .line {
     width: 36rem;
 }
+
+.interior-design {
+  padding-top: 1rem;
+}
+
+.interior-construction {
+  padding-top: 1rem;
+}
+
+.furniture-manufacture {
+  padding-top: 1rem;
+}
+
+.project-management {
+  padding-top: 1.5rem;
+}
+
+.hr-portofolio {
+  margin: 5px 0px;
+}
 /* Navbar */
 .button_container {
     position: relative;
