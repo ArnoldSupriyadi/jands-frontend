@@ -233,6 +233,43 @@ body {
   }
 
 
+/* OUR STORY */
+.our-story {
+  background-color: #fff;
+}
+
+.content-ourstory {
+  letter-spacing: 0.05em;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+.our-story-bg-right {
+  background-color: #232923;
+}
+
+.img-ourstory {
+  color: #fff;
+}
+
+.our-vision-bg-left {
+  background-color: #232923;
+}
+
+.our-vision {
+  color: #fff;
+}
+
+.our-mission-content p {
+  color: #000;
+}
+
+.our-vision-bg-right {
+  background-color: #FFF;
+}
+
+/* END OUR STORY */
+
   @keyframes fadeInRight {
     0% {
       opacity: 0;
