@@ -58,7 +58,9 @@ body {
 .hr-portofolio {
   margin: 5px 0px;
 }
-/* Navbar */
+
+/* NAVBAR */
+
 .button_container {
     position: relative;
     top: 5%;
@@ -181,7 +183,56 @@ body {
     background: #FFF;
     transition: 0.35s;
   }
+
+  .content-clients {
+    letter-spacing: 2px;
+  }
+  /* END OF NAVBAR */
+
+  .btn-portfolio {
+    background-color: #3F573F;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.4);
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  .btn-portfolio:hover {
+    box-shadow: 0 0 rgba(0, 0, 0, 0.4);
+    border-bottom-width: 2px;
+    transform: translateY(2px);
+    cursor: pointer;
+    color: #e7e7e7;
+  }
+
+  footer {
+    background-color: #3F573F;
+    padding: 20px 0px 0px 0px;
+    color: #fff;
+    letter-spacing: 1px;
+  }
   
+  .head-office p {
+    font-size: 12px;
+    font-weight: 300;
+  }
+
+  .warehouse p {
+    font-size: 12px;
+    font-weight: 300;
+  }
+
+  svg {
+    width: 24px;
+  }
+
+  .copyright p {
+    font-size: 14px;
+  }
+
+
   @keyframes fadeInRight {
     0% {
       opacity: 0;
