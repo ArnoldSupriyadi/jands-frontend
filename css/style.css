@@ -269,6 +269,19 @@ body {
   background-color: #FFF;
 }
 
+.line-story {
+  width: 100%;
+}
+
+.bg-contact-left {
+  background-color: #232923;
+}
+
+.bg-contact-left-content h1 {
+  color: #fff;
+  letter-spacing: 0.05em;
+  line-height: 54px;
+}
 /* END OUR STORY */
 
   @keyframes fadeInRight {
@@ -279,5 +292,13 @@ body {
     100% {
       opacity: 1;
       left: 0;
+    }
+  }
+
+  /* MOBILE VIEW  */
+  @media (max-width: 575.98px) {
+    .bg-contact-left-content h1 {
+      font-size: 1rem;
+      line-height: 40px;
     }
   }
