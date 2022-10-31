@@ -284,6 +284,13 @@ body {
 }
 /* END OUR STORY */
 
+
+/* Contact */
+.content-desc ul li {
+  letter-spacing: 0.05rem;
+  padding: 8px 0px;
+}
+/* End of Contact */
   @keyframes fadeInRight {
     0% {
       opacity: 0;
