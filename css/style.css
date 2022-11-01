@@ -284,6 +284,15 @@ body {
 }
 /* END OUR STORY */
 
+/* Portfolio */
+.section-categories p {
+  font-size: 14px;
+}
+
+.section-categories hr {
+  width: 50%;
+}
+/* End Portfolio */
 
 /* Contact */
 .content-desc ul li {
