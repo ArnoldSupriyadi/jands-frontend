@@ -292,6 +292,23 @@ body {
 .section-categories hr {
   width: 50%;
 }
+
+.nav-pills .nav-link {
+  font-size: 14px;
+  border-radius: 0px;
+  color: #000;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  border-bottom: 1px solid #3F573F;
+  background-color: transparent;
+  color: #3F573F;
+  font-weight: 600;
+}
+
+.img-portfolio {
+  border-radius: 2px;
+}
 /* End Portfolio */
 
 /* Contact */
@@ -316,5 +333,13 @@ body {
     .bg-contact-left-content h1 {
       font-size: 1rem;
       line-height: 40px;
+    }
+
+    .nav-pills .nav-link {
+      font-size: 12px;
+    }
+
+    .figure-caption {
+      font-size: 0.8rem;
     }
   }

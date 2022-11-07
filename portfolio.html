@@ -47,20 +47,206 @@
 
     <main>
       <section class="section-categories mt-5">
-        <div class="container">
+        <div class="container-fluid">
           <div class="row">
-            <div class="col-md-2">
-              <p>Living Room <hr></p>
+            <ul class="nav nav-pills mb-3 d-flex justify-content-center" id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all" type="button" role="tab" aria-controls="pills-all" aria-selected="true">All</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link text-center" id="pills-living-tab" data-bs-toggle="pill" data-bs-target="#pills-living" type="button" role="tab" aria-controls="pills-living" aria-selected="false">Living Room</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link text-center" id="pills-bed-tab" data-bs-toggle="pill" data-bs-target="#pills-bed" type="button" role="tab" aria-controls="pills-bed" aria-selected="false">Bed Room</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-foyer-tab" data-bs-toggle="pill" data-bs-target="#pills-foyer" type="button" role="tab" aria-controls="pills-foyer" aria-selected="false">Foyer</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-kitchen-tab" data-bs-toggle="pill" data-bs-target="#pills-kitchen" type="button" role="tab" aria-controls="pills-kitchen" aria-selected="false">Kitchen Set</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-master-tab" data-bs-toggle="pill" data-bs-target="#pills-master" type="button" role="tab" aria-controls="pills-master" aria-selected="false">Master Bed Room</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-walk-tab" data-bs-toggle="pill" data-bs-target="#pills-walk" type="button" role="tab" aria-controls="pills-walk" aria-selected="false">Walk in Closet</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-office-tab" data-bs-toggle="pill" data-bs-target="#pills-office" type="button" role="tab" aria-controls="pills-office" aria-selected="false">Office</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-dining-tab" data-bs-toggle="pill" data-bs-target="#pills-dining" type="button" role="tab" aria-controls="pills-dining" aria-selected="false">Dining Room</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-kids-tab" data-bs-toggle="pill" data-bs-target="#pills-kids" type="button" role="tab" aria-controls="pills-kids" aria-selected="false">Kids Bed Room</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-bathroom-tab" data-bs-toggle="pill" data-bs-target="#pills-bathroom" type="button" role="tab" aria-controls="pills-bathroom" aria-selected="false">Bathroom</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-gallery-portfolio">
+        <div class="container-fluid">
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
+              <div class="container px-0">
+                <div class="row">
+                  <div class="col-md-4 col-6 mt-4">
+                    <figure class="figure">
+                      <img src="img/portfolio/living-room.jpg" class="figure-img img-fluid rounded" alt="jands">
+                      <figcaption class="figure-caption">LIVING ROOM</figcaption>
+                    </figure>
+                  </div>
+                  <div class="col-md-4 col-6 mt-4">
+                    <figure class="figure">
+                      <img src="img/portfolio/bed-room.jpg" class="figure-img img-fluid rounded" alt="jands">
+                      <figcaption class="figure-caption">BED ROOM</figcaption>
+                    </figure>
+                  </div>
+                  <div class="col-md-4 col-6 mt-4">
+                    <figure class="figure">
+                      <img src="img/portfolio/foyer.jpg" class="figure-img img-fluid rounded" alt="jands">
+                      <figcaption class="figure-caption">FOYER</figcaption>
+                    </figure>
+                  </div>
+                  <div class="col-md-4 col-6 mt-4">
+                    <figure class="figure">
+                      <img src="img/portfolio/kitchen-set.jpg" class="figure-img img-fluid rounded" alt="jands">
+                      <figcaption class="figure-caption">KITCHEN SET</figcaption>
+                    </figure>
+                  </div>
+                  <div class="col-md-4 col-6 mt-4">
+                    <figure class="figure">
+                      <img src="img/portfolio/master-bedroom.jpg" class="figure-img img-fluid rounded" alt="jands">
+                      <figcaption class="figure-caption">MASTER BED ROOM</figcaption>
+                    </figure>
+                  </div>
+                  <div class="col-md-4 col-6 mt-4">
+                    <figure class="figure">
+                      <img src="img/portfolio/walk-in-closet.jpg" class="figure-img img-fluid rounded" alt="jands">
+                      <figcaption class="figure-caption">WALK IN CLOSET</figcaption>
+                    </figure>
+                  </div>
+                  <div class="col-md-4 col-6 mt-4">
+                    <figure class="figure">
+                      <img src="img/portfolio/office.jpg" class="figure-img img-fluid rounded" alt="jands">
+                      <figcaption class="figure-caption">OFFICE</figcaption>
+                    </figure>
+                  </div>
+                  <div class="col-md-4 col-6 mt-4">
+                    <figure class="figure">
+                      <img src="img/portfolio/dining-room.jpg" class="figure-img img-fluid rounded" alt="jands">
+                      <figcaption class="figure-caption">DINING ROOM</figcaption>
+                    </figure>
+                  </div>
+                  <div class="col-md-4 col-6 mt-4">
+                    <figure class="figure">
+                      <img src="img/portfolio/kids-bedroom.jpg" class="figure-img img-fluid rounded" alt="jands">
+                      <figcaption class="figure-caption">KIDS BEDROOM</figcaption>
+                    </figure>
+                  </div>
+                  <div class="col-md-4 col-6 mt-4">
+                    <figure class="figure">
+                      <img src="img/portfolio/bathroom.jpg" class="figure-img img-fluid rounded" alt="jands">
+                      <figcaption class="figure-caption">BATHROOM</figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="col-md-1"></div>
-            <div class="col-md-1"></div>
-            <div class="col-md-1"></div>
-            <div class="col-md-1"></div>
-            <div class="col-md-1"></div>
-            <div class="col-md-1"></div>
-            <div class="col-md-1"></div>
-            <div class="col-md-1"></div>
-            <div class="col-md-1"></div>
+            <div class="tab-pane fade" id="pills-living" role="tabpanel" aria-labelledby="pills-living-tab">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+                    <p>Living Room</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-bed" role="tabpanel" aria-labelledby="pills-bed-tab">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+                    <p>Bed Room</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-foyer" role="tabpanel" aria-labelledby="pills-foyer-tab">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+                    <p>Foyer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-kitchen" role="tabpanel" aria-labelledby="pills-kitchen-tab">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+                    <p>Kitchen</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-master" role="tabpanel" aria-labelledby="pills-master-tab">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+                    <p>master</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-walk" role="tabpanel" aria-labelledby="pills-walk-tab">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+                    <p>Walk in closet</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-office" role="tabpanel" aria-labelledby="pills-office-tab">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+                    <p>Office</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-dining" role="tabpanel" aria-labelledby="pills-dining-tab">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+                    <p>Dining</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-kids" role="tabpanel" aria-labelledby="pills-kids-tab">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+                    <p>Kids</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-bathroom" role="tabpanel" aria-labelledby="pills-bathroom-tab">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+                    <p>Bathroom</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
