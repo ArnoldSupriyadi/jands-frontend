@@ -309,6 +309,14 @@ body {
 .img-portfolio {
   border-radius: 2px;
 }
+
+figure-caption {
+  letter-spacing: 4px;
+}
+
+.logo-footer {
+  width: 18rem;
+}
 /* End Portfolio */
 
 /* Contact */
