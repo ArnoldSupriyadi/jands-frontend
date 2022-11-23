@@ -115,6 +115,7 @@ body {
     visibility: hidden;
     transition: opacity 0.35s, visibility 0.35s, height 0.35s;
     overflow: hidden;
+    z-index: 8;
   }
   .overlay.open {
     opacity: 0.9;
@@ -225,7 +226,7 @@ body {
   }
 
   svg {
-    width: 24px;
+    width: 54px;
   }
 
   .copyright p {
@@ -351,3 +352,16 @@ figure-caption {
       font-size: 0.8rem;
     }
   }
+
+
+  /* SWUP JS */
+  .transition-fade {
+    transition: 7s;
+    opacity: 1;
+}
+
+html.is-animating .transition-fade {
+    opacity: 0;
+    transform: translateY(-100px);
+}
+
