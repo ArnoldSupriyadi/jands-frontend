@@ -318,6 +318,10 @@ figure-caption {
 .logo-footer {
   width: 18rem;
 }
+
+ol, ul {
+  padding-left: 1rem;
+}
 /* End Portfolio */
 
 /* Contact */
